@@ -4,8 +4,8 @@
 }
 body {
     background-image: url('http://www.placekitten.com/300/300');
-    background: lightpink;
-    text-align: right;
+    background: black;
+    text-align: left;
 }
 h2 {
     color: pink;
@@ -13,7 +13,7 @@ h2 {
     font-style: italic;
 }
 p {
-    color: blue
+    color: orange
 }
 li {
     color: red;
@@ -36,11 +36,20 @@ ul {
     width: 250px;
     border-radius: 15px;
     background: yellow;
-    border: dotted lightseagreen 5px;
+    border: dotted purple 10px;
     margin: 0 auto;
     padding: 40px;
     color: orange;
+    transition: height .2s ease-in-out;
+    
 }
+
+.square:hover {
+    width: 400px
+    cursor: pointer;
+}
+
+
 #cool-square {
     background: red;
 }
